@@ -22,10 +22,10 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+    line-height: 1.6;
 }
 
-/* Estilos gerais do corpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,7 +34,6 @@ body {
     color: #333;
 }
 
-/* Limitando a largura do elemento principal */
 main {
     max-width: 840px;
     margin: 20px auto;
@@ -42,13 +41,15 @@ main {
     background-color: #fff;
 }
 
-/* Estilo específico para a imagem de perfil dentro do main */
 main img {
     width: 150px;
     height: auto;
     display: block;
     margin: 10px auto;
     border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 aside {
